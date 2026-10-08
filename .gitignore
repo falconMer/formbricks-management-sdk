@@ -1,0 +1,13 @@
+node_modules
+*.log
+*.tsbuildinfo
+.env
+.sdk/dist/
+.sdk/model/*.json
+.sdk/model/.model-config/*.json
+.sdk/test/*.json
+.sdk/test/.model-config/*.json
+.sdk/doc/generated.json
+ts/dist-test/
+ts/test/.examples_*.gen.ts
+.DS_Store
