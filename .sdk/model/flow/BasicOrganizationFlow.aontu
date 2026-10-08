@@ -1,0 +1,44 @@
+# BasicOrganizationFlow
+
+main: kit: flow: BasicOrganizationFlow:
+{
+  entity: "organization",
+  kind: "basic",
+  name: "BasicOrganizationFlow",
+  step: [
+    {
+      o: "list",
+      v: [
+        {
+          apply: "ItemExists",
+          def: {
+            ref: "organization_ref01"
+          }
+        }
+      ]
+    }
+
+    {
+      i: {
+        ref: "organization_ref01",
+        srcdatavar: "organization_ref01_data",
+        suffix: "_dt0"
+      }
+
+      m: {
+        id: "organization01"
+      }
+
+      o: "load",
+      v: [
+        {
+          apply: "TextFieldMark",
+          def: {
+            mark: "Mark01-organization_ref01"
+          }
+        }
+      ]
+    }
+  ],
+  "key$": "BasicOrganizationFlow"
+}

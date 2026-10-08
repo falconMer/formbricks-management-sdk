@@ -1,0 +1,7 @@
+main: kit: {
+ author: { name: 'Smail Mersad', url: 'https://github.com/falconMer' }
+ repo: path: 'falconMer/formbricks-management-sdk'
+ doc: ci: active: false
+ phase: top: active: false
+ target: ts: publish: { version: '0.1.0', registry: { package: 'ror-sdk', active: false } }
+}

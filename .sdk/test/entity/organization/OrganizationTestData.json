@@ -1,0 +1,53 @@
+{
+  "existing": {
+    "organization": {
+      "ORGANIZATION00": {
+        "domains": [],
+        "id": "ORGANIZATION00",
+        "locations": [],
+        "names": [],
+        "status": "s40",
+        "types": []
+      },
+      "ORGANIZATION01": {
+        "domains": [],
+        "id": "ORGANIZATION01",
+        "locations": [],
+        "names": [],
+        "status": "s7c",
+        "types": []
+      },
+      "ORGANIZATION02": {
+        "domains": [],
+        "id": "ORGANIZATION02",
+        "locations": [],
+        "names": [],
+        "status": "sb8",
+        "types": []
+      }
+    }
+  },
+  "new": {
+    "organization": {
+      "organization_ref01": {
+        "domains": [],
+        "locations": [],
+        "names": [],
+        "status": "sf4",
+        "types": []
+      }
+    }
+  },
+  "requests": {
+    "GET /organizations": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    },
+    "GET /organizations/{id}": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ror-sdk-assessment",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Smail Mersad",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "generate": "npm --prefix .sdk run generate",
+    "build": "npm --prefix ts run build",
+    "test": "npm --prefix ts test && node --test test/contract.test.cjs",
+    "test:live": "node scripts/live-smoke.cjs",
+    "doctor": "cd .sdk && npx --no-install voxgig-sdkgen doctor"
+  }
+}

@@ -1,0 +1,21 @@
+# API Information
+
+
+main: {
+  kit: {
+    info: {
+      auth: false
+      description: "Independently authored subset of the public ROR v2 API. Not an official or complete ROR specification."
+      servers: [
+        {
+          url: "https://api.ror.org/v2"
+        }
+      ]
+      summary: "Independently authored subset of the public ROR v2 API."
+      title: "Research Organization Registry API — focused assessment subset"
+      version: "0.1.0"
+      website: "https://ror.org"
+    }
+  }
+}
+
